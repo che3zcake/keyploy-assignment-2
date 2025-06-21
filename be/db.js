@@ -2,7 +2,7 @@ import mongoose, {Schema} from 'mongoose'
 
 (async ()=> {
     try{
-        await mongoose.connect()
+        await mongoose.connect("mongodb://localhost:27017/mongo")
         console.log("connected to the database")
     }catch(e){
         console.log("error connecting to the database: ",e)
