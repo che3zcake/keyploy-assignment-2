@@ -17,3 +17,7 @@ i have implemented 4 endpoints:
 - http://localhost:3000/update/[item id] is an patch endpoint:
   - {"title": "new title" }
 - http://localhost:3000/delete/[item id] is a delete endpoint which will delete my endpoint
+
+
+To do different test (do this in the be folder):
+- npm run test
