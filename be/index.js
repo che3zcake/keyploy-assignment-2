@@ -99,6 +99,4 @@ app.delete("/delete/:id", async (req, res) => {
 });
 
 
-app.listen(3000, ()=>{
-    console.log('listening at port 3000')
-})
+export default app;
